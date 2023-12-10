@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.weatherapp"
-        minSdk = 24
-        targetSdk = 33
+        minSdk = 29
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -48,4 +48,5 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("com.koushikdutta.ion:ion:3.1.0")
 }
